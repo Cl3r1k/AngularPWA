@@ -12,6 +12,7 @@
         "https://Cl3r1k.github.io/AngularPWA/main.ef6ff5a6840ccc64a6ca.js",
         "https://Cl3r1k.github.io/AngularPWA/polyfills.2f4a59095805af02bd79.js",
         "https://Cl3r1k.github.io/AngularPWA/runtime.a66f828dca56eeb90e02.js",
+        "https://Cl3r1k.github.io/AngularPWA/ngsw-worker.js",
         "https://Cl3r1k.github.io/AngularPWA/styles.20a7a1fe3362710b6542.css"
       ],
       "patterns": []
@@ -48,6 +49,7 @@
     "https://Cl3r1k.github.io/AngularPWA/main.ef6ff5a6840ccc64a6ca.js": "42873a2a8185fde634ed0ce5be3a99a58532d266",
     "https://Cl3r1k.github.io/AngularPWA/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
     "https://Cl3r1k.github.io/AngularPWA/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "https://Cl3r1k.github.io/AngularPWA/ngsw-worker.js": "c5a902eadafef027da61d8960343491e15191ab4",
     "https://Cl3r1k.github.io/AngularPWA/styles.20a7a1fe3362710b6542.css": "a03675b1b1e617c6608eaa763c80c218922422cb"
   },
   "navigationUrls": [
