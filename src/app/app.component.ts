@@ -8,7 +8,7 @@ import { SwUpdate } from '@angular/service-worker';
 })
 export class AppComponent implements OnInit {
 
-    title = 'Progressive Web App (GH: https://cl3r1k.github.io/AngularPWA/)';
+    title = 'Progressive Web App';
 
     constructor(private swUpdate: SwUpdate) { }
 
