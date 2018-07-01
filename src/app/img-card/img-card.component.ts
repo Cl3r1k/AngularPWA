@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ImgCardComponent implements OnInit {
 
+    public button: Button = {
+        text: 'Give me another cat',
+        disabled: false
+    };
+
     private image: CatImage = {
         message: 'Progressive Web App',
         api: 'https://cataas.com/cat/says/',
@@ -19,6 +24,11 @@ export class ImgCardComponent implements OnInit {
 
     ngOnInit() {
         this.generateSrc();
+
+        if (!navigator.onLine) {
+            this.button.text = 'Sorry, you\'re offline';
+            this.button.disabled = true;
+        }
     }
 
     generateSrc() {
@@ -31,4 +41,9 @@ class CatImage {
     message: string;
     api: string;
     fontSize: number;
+}
+
+class Button {
+    text: string;
+    disabled: boolean;
 }

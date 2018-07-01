@@ -13,7 +13,7 @@ import { ImgCardComponent } from './img-card/img-card.component';
     ],
     imports: [
         BrowserModule,
-        ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
+        ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
     ],
     providers: [],
     bootstrap: [AppComponent]

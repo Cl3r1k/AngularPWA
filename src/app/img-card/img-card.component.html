@@ -1,2 +1,7 @@
-<button (click)='generateSrc()'>Give me another cat</button>
-<img src="{{src}}" alt="Cute cat">
+<div class='btn-block'>
+    <button (click)='generateSrc()' [class.offline]='button.disabled'>{{button.text}}</button>
+</div>
+
+<div>
+    <img src="{{src}}" alt="Cute cat">
+</div>
