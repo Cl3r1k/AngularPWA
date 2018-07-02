@@ -1,0 +1,2 @@
+Just an asset
+Test for issue https://github.com/angular/angular/issues/23135
