@@ -20,7 +20,8 @@
                 "/assets/**"
             ],
             "urls": [
-                "https://cataas.com/**"
+                "https://cataas.com/**",
+                "https://fonts.googleapis.com/css?family=Roboto:400,300"
             ]
         }
     }]
